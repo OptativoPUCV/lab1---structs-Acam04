@@ -23,3 +23,14 @@ Wed 13 Mar 2024 09:01:24 PM UTC:
  tests:  0|6
 total_score: 10/70
 9a6c1ba
+Wed 13 Mar 2024 09:08:52 PM UTC: 
+ exercises.c | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘reverseArray’:
+exercises.c:30:7: error: variable ‘aux’ set but not used [-Werror=unused-but-set-variable]
+   30 |   int aux[size];
+      |       ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+8596f58
