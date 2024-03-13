@@ -34,3 +34,9 @@ exercises.c:30:7: error: variable ‘aux’ set but not used [-Werror=unused-but
 cc1: all warnings being treated as errors
 Compilation failed
 8596f58
+Wed 13 Mar 2024 09:15:15 PM UTC: 
+ exercises.c | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+ tests:  0|5
+total_score: 20/70
+5dfcd77
